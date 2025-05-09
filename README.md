@@ -355,4 +355,4 @@ O repositório será organizado nas seguintes seções principais. Cada seção 
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE.md).
