@@ -6,7 +6,7 @@ Este projeto visa construir um repositório abrangente para documentar funções
 
 ## Badges das Tecnologias
 
-Aqui estão as badges das principais tecnologias abordadas no projeto:
+Principais tecnologias abordadas no projeto:
 
 ### Linguagens, Frameworks Backend e IDEs
 
@@ -45,6 +45,12 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
 [![Google BigQuery](https://img.shields.io/badge/Google%20BigQuery-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/bigquery)
 [![Amazon Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C27C1?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/redshift/)
+[![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC00?style=for-the-badge&logo=clickhouse&logoColor=black)](https://clickhouse.com/)
+[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
+[![Oracle Database](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/database/)
+[![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
+[![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)](https://www.influxdata.com/)
+[![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)](https://neo4j.com/)
 
 #### Bancos de Dados Vetoriais
 [![Pinecone](https://img.shields.io/badge/Pinecone-0095D2?style=for-the-badge&logo=pinecone&logoColor=white)](https://www.pinecone.io/)
@@ -57,13 +63,24 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 ### Orquestração, Qualidade e Streaming de Dados
 
 [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
-[![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-5A98D1?style=for-the-badge&logo=apachenifi&logoColor=white)](https://nifi.apache.org/)
+[![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-77C8E2?style=for-the-badge&logo=apachenifi&logoColor=black)](https://nifi.apache.org/)
+[![Luigi](https://img.shields.io/badge/Luigi-F96A00?style=for-the-badge&logo=spotify&logoColor=white)](https://github.com/spotify/luigi)
+[![Prefect](https://img.shields.io/badge/Prefect-070A13?style=for-the-badge&logo=prefect&logoColor=00E1FF)](https://www.prefect.io/)
+[![Dagster](https://img.shields.io/badge/Dagster-1F1F1F?style=for-the-badge&logo=dagster&logoColor=F9A03C)](https://dagster.io/)
 [![Talend](https://img.shields.io/badge/Talend-FF69B4?style=for-the-badge&logo=talend&logoColor=white)](https://www.talend.com/)
 [![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)](https://www.getdbt.com/)
-[![Great Expectations](https://img.shields.io/badge/Great%20Expectations-FF6131?style=for-the-badge&logoColor=white)](https://greatexpectations.io/)
-[![ydata-profiling](https://img.shields.io/badge/ydata--profiling-DA70D6?style=for-the-badge&logoColor=white)](https://github.com/ydataai/ydata-profiling)
+[![Great Expectations](https://img.shields.io/badge/Great%20Expectations-FF6131?style=for-the-badge&logo=greatexpectations&logoColor=white)](https://greatexpectations.io/)
+[![ydata-profiling](https://img.shields.io/badge/ydata--profiling-ED73B2?style=for-the-badge)](https://github.com/ydataai/ydata-profiling)
+[![Deequ](https://img.shields.io/badge/Deequ-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=black)](https://github.com/awslabs/deequ)
+[![Soda SQL](https://img.shields.io/badge/Soda%20SQL-42B1D8?style=for-the-badge)](https://www.soda.io/sql)
 [![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
 [![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/)
+[![Apache Spark Streaming](https://img.shields.io/badge/Spark%20Streaming-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/streaming/)
+[![Apache Storm](https://img.shields.io/badge/Apache%20Storm-00BFFF?style=for-the-badge&logo=apache&logoColor=white)](https://storm.apache.org/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
+[![Amazon Kinesis](https://img.shields.io/badge/Amazon%20Kinesis-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/kinesis/)
+[![Google Cloud Pub/Sub](https://img.shields.io/badge/Google%20Pub/Sub-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/pubsub)
+[![Azure Event Hubs](https://img.shields.io/badge/Azure%20Event%20Hubs-0078D4?style=for-the-badge&logo=azurefunctions&logoColor=white)](https://azure.microsoft.com/en-us/services/event-hubs/)
 
 ### Machine Learning
 
@@ -123,13 +140,33 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![Weights & Biases](https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)](https://wandb.ai/)
 [![Feast](https://img.shields.io/badge/Feast-E87201?style=for-the-badge&logoColor=white)](https://feast.dev/)
 [![Tecton](https://img.shields.io/badge/Tecton-1E88E5?style=for-the-badge&logoColor=white)](https://www.tecton.ai/)
+[![Feast](https://img.shields.io/badge/Feast-1E88E5?style=for-the-badge)](https://feast.dev/)
+[![Hopsworks](https://img.shields.io/badge/Hopsworks-4CAF50?style=for-the-badge)](https://www.hopsworks.ai/)
+[![Amazon SageMaker Feature Store](https://img.shields.io/badge/SageMaker%20Feature%20Store-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=black)](https://aws.amazon.com/sagemaker/feature-store/)
+[![Vertex AI Feature Store](https://img.shields.io/badge/Vertex%20AI%20Feature%20Store-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai/docs/featurestore)
 
 
 ### Computação Distribuída e Cloud
 
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/)
 [![Ray](https://img.shields.io/badge/Ray-0070E0?style=for-the-badge&logo=ray&logoColor=white)](https://www.ray.io/)
-<!-- AWS, Azure, GCP badges podem ser adicionados se desejar focar em plataformas cloud específicas -->
+
+#### Plataformas de Nuvem e Serviços de IA/ML
+
+[![Amazon Web Services (AWS)](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
+[![Amazon SageMaker](https://img.shields.io/badge/Amazon%20SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=black)](https://aws.amazon.com/sagemaker/)
+[![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=black)](https://aws.amazon.com/lambda/)
+[![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black)](https://aws.amazon.com/ec2/)
+[![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Azure Machine Learning](https://img.shields.io/badge/Azure%20Machine%20Learning-0078D4?style=for-the-badge&logo=azurefunctions&logoColor=white)](https://azure.microsoft.com/en-us/services/machine-learning/)
+[![Azure Functions](https://img.shields.io/badge/Azure%20Functions-0078D4?style=for-the-badge&logo=azurefunctions&logoColor=white)](https://azure.microsoft.com/en-us/services/functions/)
+[![Azure Virtual Machines](https://img.shields.io/badge/Azure%20Virtual%20Machines-0078D4?style=for-the-badge&logo=virtualbox&logoColor=white)](https://azure.microsoft.com/en-us/services/virtual-machines/) 
+[![Google Cloud Platform (GCP)](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![Vertex AI (Google Cloud)](https://img.shields.io/badge/Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai)
+[![Google Cloud Functions](https://img.shields.io/badge/Google%20Cloud%20Functions-4285F4?style=for-the-badge&logo=googlecloudfunctions&logoColor=white)](https://cloud.google.com/functions)
+[![Google Compute Engine](https://img.shields.io/badge/Google%20Compute%20Engine-4285F4?style=for-the-badge&logo=googlecomputeengine&logoColor=white)](https://cloud.google.com/compute)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 
 ### Segurança, Privacidade, Ética e Simulação em IA
 
@@ -137,7 +174,19 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![ART (Adversarial Robustness Toolbox)](https://img.shields.io/badge/ART-000000?style=for-the-badge&logo=linuxfoundation&logoColor=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 [![Unity ML-Agents](https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/products/ml-agents)
 [![CARLA Simulator](https://img.shields.io/badge/CARLA-F9A03C?style=for-the-badge&logoColor=black)](https://carla.org/)
-<!-- Badge genérico para Ética em IA: [![Ethics In AI](https://img.shields.io/badge/Ethics%20In%20AI-lightgrey?style=for-the-badge)]() -->
+[![PySyft (OpenMined)](https://img.shields.io/badge/PySyft-E91E63?style=for-the-badge&logo=openmined&logoColor=white)](https://github.com/OpenMined/PySyft)
+[![TensorFlow Privacy](https://img.shields.io/badge/TensorFlow%20Privacy-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/privacy)
+[![Opacus (PyTorch)](https://img.shields.io/badge/Opacus-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://opacus.ai/)
+[![ART (Adversarial Robustness Toolbox)](https://img.shields.io/badge/ART-000000?style=for-the-badge&logo=linuxfoundation&logoColor=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+[![CleverHans](https://img.shields.io/badge/CleverHans-4285F4?style=for-the-badge)](https://github.com/cleverhans-lab/cleverhans)
+[![IBM AI Fairness 360](https://img.shields.io/badge/AI%20Fairness%20360-0062FF?style=for-the-badge&logo=ibm&logoColor=white)](https://aif360.mybluemix.net/)
+[![Fairlearn](https://img.shields.io/badge/Fairlearn-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://fairlearn.org/)
+[![Unity ML-Agents](https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/products/ml-agents)
+[![CARLA Simulator](https://img.shields.io/badge/CARLA-F9A03C?style=for-the-badge&logoColor=black)](https://carla.org/)
+[![NVIDIA Isaac Sim](https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac-sim)
+[![AI Ethics Lab](https://img.shields.io/badge/AI%20Ethics%20Lab-5A6772?style=for-the-badge)](https://aiethicslab.com/)
+[![Algorithmic Justice League](https://img.shields.io/badge/AJL-DAA520?style=for-the-badge)](https://www.ajl.org/)
+[![Ethics In AI](https://img.shields.io/badge/Ethics%20In%20AI-999999?style=for-the-badge)]
 
 ### Outros Utilitários
 
@@ -295,4 +344,3 @@ O repositório será organizado nas seguintes seções principais. Cada seção 
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-*(Você precisará criar um arquivo `LICENSE` no seu repositório com o texto da licença MIT)*
