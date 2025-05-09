@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a CI service; an example is Upload PyInstaller Artifacts from Horsk
+# *.manifest
+# *.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+*.po
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# Para saídas de células grandes, pode ser útil se não quiser versioná-las
+# *.ipynb
+# !notebooks_com_saida_importante.ipynb
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Conda
+.conda
+
+# DVC (o DVC tem seu próprio .dvcignore, mas algumas coisas podem ir aqui)
+.dvc/cache
+.dvc/tmp
+.dvc/plots
+
+# Datasets (especialmente se forem grandes - melhor usar DVC ou git-lfs)
+# data/
+# *.csv
+# *.parquet
+# *.jpg
+# *.png
+
+# Modelos (idem datasets)
+# models/
+# *.h5
+# *.pth
+# *.pb
+# *.onnx
+# *.pkl
+# *.joblib
+
+# Outros específicos do projeto
+secrets.yml
+credentials.json
+config.local.ini
