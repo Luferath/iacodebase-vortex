@@ -1,6 +1,6 @@
 # Repositório de IA: Um Guia Abrangente
 
-Este projeto visa construir um repositório abrangente para documentar funções, bibliotecas, frameworks, ferramentas e aplicações práticas de Inteligência Artificial (IA) utilizando Python, bem como as tecnologias frontend para interação com essas aplicações. A estrutura baseia-se no estilo manual, oferecendo explicações detalhadas, exemplos práticos, discussões sobre casos de uso e links para recursos oficiais.
+Este projeto visa construir um repositório abrangente para documentar funções, bibliotecas, frameworks, ferramentas, infraestrutura de dados e aplicações práticas de Inteligência Artificial (IA) utilizando Python, bem como as tecnologias frontend e as considerações de produção. A estrutura baseia-se no estilo manual, oferecendo explicações detalhadas, exemplos práticos, discussões sobre casos de uso e links para recursos oficiais.
 
 ---
 
@@ -32,6 +32,38 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![Altair](https://img.shields.io/badge/Altair-F68401?style=for-the-badge)](https://altair-viz.github.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Dash](https://img.shields.io/badge/Dash-0074D9?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/dash/)
+
+### Bancos de Dados e Armazenamento
+
+#### Tradicionais e Data Warehouses
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+[![Apache Cassandra](https://img.shields.io/badge/Apache%20Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white)](https://cassandra.apache.org/)
+[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
+[![Google BigQuery](https://img.shields.io/badge/Google%20BigQuery-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/bigquery)
+[![Amazon Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C27C1?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/redshift/)
+
+#### Bancos de Dados Vetoriais
+[![Pinecone](https://img.shields.io/badge/Pinecone-0095D2?style=for-the-badge&logo=pinecone&logoColor=white)](https://www.pinecone.io/)
+[![Weaviate](https://img.shields.io/badge/Weaviate-19E0C1?style=for-the-badge&logo=weaviate&logoColor=black)](https://weaviate.io/)
+[![Milvus](https://img.shields.io/badge/Milvus-48B9A8?style=for-the-badge&logo=milvus&logoColor=white)](https://milvus.io/)
+[![Chroma](https://img.shields.io/badge/Chroma-8B5CF6?style=for-the-badge&logoColor=white)](https://www.trychroma.com/)
+[![Qdrant](https://img.shields.io/badge/Qdrant-FF4081?style=for-the-badge&logoColor=white)](https://qdrant.tech/)
+[![FAISS](https://img.shields.io/badge/FAISS-4267B2?style=for-the-badge&logo=facebook&logoColor=white)](https://faiss.ai/)
+
+### Orquestração, Qualidade e Streaming de Dados
+
+[![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
+[![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-5A98D1?style=for-the-badge&logo=apachenifi&logoColor=white)](https://nifi.apache.org/)
+[![Talend](https://img.shields.io/badge/Talend-FF69B4?style=for-the-badge&logo=talend&logoColor=white)](https://www.talend.com/)
+[![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)](https://www.getdbt.com/)
+[![Great Expectations](https://img.shields.io/badge/Great%20Expectations-FF6131?style=for-the-badge&logoColor=white)](https://greatexpectations.io/)
+[![ydata-profiling](https://img.shields.io/badge/ydata--profiling-DA70D6?style=for-the-badge&logoColor=white)](https://github.com/ydataai/ydata-profiling)
+[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)](https://flink.apache.org/)
 
 ### Machine Learning
 
@@ -80,8 +112,7 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-
-### MLOps e Ferramentas de Produção
+### MLOps e Gerenciamento de Features
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
@@ -90,12 +121,23 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 [![BentoML](https://img.shields.io/badge/BentoML-FF8C00?style=for-the-badge&logo=bentoml&logoColor=white)](https://www.bentoml.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Weights & Biases](https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)](https://wandb.ai/)
-[![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
+[![Feast](https://img.shields.io/badge/Feast-E87201?style=for-the-badge&logoColor=white)](https://feast.dev/)
+[![Tecton](https://img.shields.io/badge/Tecton-1E88E5?style=for-the-badge&logoColor=white)](https://www.tecton.ai/)
 
-### Computação Distribuída e Big Data
+
+### Computação Distribuída e Cloud
 
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/)
 [![Ray](https://img.shields.io/badge/Ray-0070E0?style=for-the-badge&logo=ray&logoColor=white)](https://www.ray.io/)
+<!-- AWS, Azure, GCP badges podem ser adicionados se desejar focar em plataformas cloud específicas -->
+
+### Segurança, Privacidade, Ética e Simulação em IA
+
+[![PySyft](https://img.shields.io/badge/PySyft-E91E63?style=for-the-badge&logoColor=white)](https://github.com/OpenMined/PySyft)
+[![ART (Adversarial Robustness Toolbox)](https://img.shields.io/badge/ART-000000?style=for-the-badge&logo=linuxfoundation&logoColor=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
+[![Unity ML-Agents](https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/products/ml-agents)
+[![CARLA Simulator](https://img.shields.io/badge/CARLA-F9A03C?style=for-the-badge&logoColor=black)](https://carla.org/)
+<!-- Badge genérico para Ética em IA: [![Ethics In AI](https://img.shields.io/badge/Ethics%20In%20AI-lightgrey?style=for-the-badge)]() -->
 
 ### Outros Utilitários
 
@@ -109,9 +151,9 @@ Aqui estão as badges das principais tecnologias abordadas no projeto:
 
 O repositório será organizado nas seguintes seções principais. Cada seção conterá subdiretórios ou arquivos Markdown detalhando as ferramentas e conceitos específicos.
 
-### Parte I: Fundamentos
+### Parte I: Fundamentos Essenciais
 
-#### 1. Python Essencial para IA
+#### 1. Python para IA
 - Sintaxe e Estruturas de Dados Avançadas.
 - Programação Orientada a Objetos (POO).
 - Manipulação de Arquivos e Serialização.
@@ -120,47 +162,54 @@ O repositório será organizado nas seguintes seções principais. Cada seção 
 - Boas Práticas de Código (**Git**).
 
 #### 2. Matemática para IA
-- Álgebra Linear.
-- Cálculo.
-- Probabilidade e Estatística.
+- Álgebra Linear, Cálculo, Probabilidade e Estatística.
 
-### Parte II: Ferramentas e Técnicas de Data Science
+### Parte II: Engenharia e Análise de Dados
 
-#### 3. Análise e Manipulação de Dados
+#### 3. Análise e Manipulação de Dados com Python
 - **NumPy**, **Pandas**, **SciPy**, **Dask**.
 
 #### 4. Visualização de Dados (Python)
 - **Matplotlib**, **Seaborn**, **Plotly (e Dash)**, **Bokeh**, **Altair**, **Streamlit**.
 
-### Parte III: Machine Learning
+#### 5. Armazenamento e Gerenciamento de Dados
+- **Bancos de Dados Relacionais:** Conceitos, SQL, **PostgreSQL**, **MySQL**, **SQLite**.
+- **Bancos de Dados NoSQL:** Tipos, casos de uso, **MongoDB**, **Redis**, **Cassandra**.
+- **Data Warehouses:** OLAP, ETL/ELT, **Snowflake**, **Google BigQuery**, **Amazon Redshift**.
+- **Bancos de Dados Vetoriais:** Busca por similaridade, embeddings, **Pinecone**, **Weaviate**, **Milvus**, **Chroma**, **Qdrant**, **FAISS**.
 
-#### 5. Fundamentos de Machine Learning
+#### 6. Pipelines, Qualidade e Streaming de Dados
+- **Orquestração de Dados:** Workflows, **Apache Airflow**, **Apache NiFi**, **Talend**.
+- **Transformação de Dados (ELT):** **dbt**.
+- **Qualidade e Profiling de Dados:** Validação, monitoramento, **Great Expectations**, **ydata-profiling**.
+- **Processamento de Streaming e Tempo Real:** Conceitos, **Apache Kafka**, **Apache Flink**, Spark Streaming.
+
+### Parte III: Machine Learning Clássico
+
+#### 7. Fundamentos de Machine Learning
 - Tipos de Aprendizado, Conceitos Chave, Fluxo de Trabalho.
 
-#### 6. Scikit-learn: O Canivete Suíço do ML
+#### 8. Scikit-learn: O Canivete Suíço do ML
 - Pré-processamento, Aprendizado Supervisionado/Não Supervisionado, Validação, Pipelines.
 
-#### 7. Algoritmos Avançados de ML
-- **XGBoost**, **LightGBM**, **CatBoost**, Otimização (**Optuna**, **Hyperopt**).
+#### 9. Algoritmos Avançados de ML
+- Gradient Boosting: **XGBoost**, **LightGBM**, **CatBoost**.
+- Otimização de Hiperparâmetros: **Optuna**, **Hyperopt**.
 
 ### Parte IV: Deep Learning
 
-#### 8. Fundamentos de Deep Learning
+#### 10. Fundamentos de Deep Learning
 - Redes Neurais, Treinamento, Regularização, Transfer Learning.
 
-#### 9. TensorFlow e Keras
-- **TensorFlow**, **Keras**.
-
-#### 10. PyTorch
-- **PyTorch**, Ecossistema PyTorch.
-
-#### 11. JAX
-- Computação numérica de alta performance.
+#### 11. Frameworks de Deep Learning
+- **TensorFlow** e **Keras**.
+- **PyTorch** e seu Ecossistema.
+- **JAX**: Computação numérica de alta performance.
 
 #### 12. Arquiteturas de Redes Neurais
-- MLP, CNNs, RNNs, Transformers, Autoencoders, GANs.
+- MLP, CNNs, RNNs (LSTMs, GRUs), Transformers (BERT, GPT, ViT), Autoencoders (VAEs), GANs.
 
-### Parte V: Aplicações Especializadas
+### Parte V: Aplicações Especializadas de IA
 
 #### 13. Processamento de Linguagem Natural (PLN)
 - Conceitos, Embeddings, Bibliotecas (**NLTK**, **spaCy**, **Gensim**, **Hugging Face Transformers**, **TextBlob**).
@@ -168,77 +217,67 @@ O repositório será organizado nas seguintes seções principais. Cada seção 
 #### 14. Visão Computacional (VC)
 - Conceitos, Bibliotecas (**OpenCV**, **Pillow**, **Scikit-image**).
 
-#### 15. Outras Aplicações de IA
-- Sistemas de Recomendação (**Surprise**, **LightFM**).
-- IA Explicável (XAI) (**LIME**, **SHAP**).
-- Aprendizado por Reforço (RL) (**OpenAI Gym**, **Stable Baselines3**).
-- IA Generativa.
-- Análise de Séries Temporais (**Prophet**, `sktime`).
+#### 15. Outras Aplicações Notáveis
+- **Sistemas de Recomendação:** (**Surprise**, **LightFM**).
+- **IA Explicável (XAI):** Interpretabilidade (**LIME**, **SHAP**, Captum).
+- **Análise de Séries Temporais:** Modelos clássicos e de ML/DL (**Prophet**, `sktime`, `statsmodels`).
 
-### Parte VI: Interfaces de Usuário e Frontend para IA
+### Parte VI: Aprendizado por Reforço e Simulação
 
-Embora o foco principal de muitos projetos de IA seja o backend e os modelos, a capacidade de apresentar resultados, interagir com usuários e coletar dados de forma eficaz muitas vezes requer uma interface de usuário (UI) bem construída.
+#### 16. Aprendizado por Reforço (RL)
+- Conceitos: Agente, ambiente, recompensa, política.
+- Algoritmos: Q-Learning, Policy Gradients, DQN.
+- Bibliotecas: **OpenAI Gym**, **Stable Baselines3**, Ray RLlib.
 
-#### 16. Fundamentos Web
-- **HTML (HyperText Markup Language):** Estrutura e semântica.
-- **CSS (Cascading Style Sheets):** Estilização e apresentação.
-- **JavaScript (JS):** Interatividade e lógica no cliente.
+#### 17. Frameworks de Simulação para IA
+- Importância da simulação para treinamento e teste.
+- Exemplos: **Unity ML-Agents**, **CARLA Simulator**, Isaac Gym.
 
-#### 17. Frameworks e Bibliotecas JavaScript
-- **React:** Biblioteca componentizada (Meta).
-- **Vue.js:** Framework progressivo.
-- **Angular:** Plataforma completa (Google).
-- **Svelte:** Compilador para JavaScript eficiente.
+### Parte VII: Desenvolvimento de Interfaces e Frontend
 
-#### 18. Estilização e UI Components
-- **Tailwind CSS:** Framework CSS utility-first.
-- **Bootstrap:** Componentes pré-construídos.
-- Outros (Material-UI, Ant Design, etc.).
+#### 18. Fundamentos Web Essenciais
+- **HTML**, **CSS**, **JavaScript (JS)**.
 
-#### 19. Ferramentas de Build e Desenvolvimento Frontend
-- **Node.js e npm/yarn:** Ambiente de execução e gerenciadores de pacotes.
-- **Vite / Webpack / Parcel:** Bundlers e ferramentas de build.
-- Linters e Formatadores (ESLint, Prettier).
+#### 19. Frameworks e Bibliotecas JavaScript Modernas
+- **React**, **Vue.js**, **Angular**, **Svelte**.
 
-#### 20. Interação Frontend-Backend (Modelos de IA)
-- Consumindo APIs REST/GraphQL (**FastAPI**, Flask) com `fetch` ou `axios`.
-- WebSockets para comunicação em tempo real.
+#### 20. Estilização e Ferramentas de UI/UX
+- **Tailwind CSS**, **Bootstrap**, Bibliotecas de Componentes.
+- **D3.js** e bibliotecas de gráficos para visualização no cliente.
 
-#### 21. Visualização de Dados no Frontend
-- **D3.js:** Visualizações customizadas complexas.
-- Bibliotecas de gráficos (Chart.js, ECharts, Recharts).
-- Integração com Plotly.js / BokehJS.
+#### 21. Build, Interação e Deploy Frontend
+- **Node.js**, **Vite** / Webpack.
+- Consumindo APIs de Modelos de IA.
+- **Netlify**, **Vercel**, GitHub Pages.
 
-#### 22. Deploy e Hospedagem de Frontends
-- Plataformas PaaS/Jamstack (**Netlify**, **Vercel**, GitHub Pages).
-- Serviços de Cloud (AWS S3/CloudFront, etc.).
+### Parte VIII: MLOps, Produção e Boas Práticas
 
-### Parte VII: MLOps e Produção
-*(Numeração anterior era Parte VI)*
+#### 22. MLOps: Gerenciamento do Ciclo de Vida de ML
+- **Controle de Versão para Código e Dados:** **Git**, **DVC**.
+- **Experimentação e Rastreamento:** **MLflow**, **Weights & Biases**.
+- **Feature Stores:** Gerenciamento e serviço de features (**Feast**, **Tecton**, soluções cloud).
+- **Conteinerização e Orquestração:** **Docker**, **Kubernetes**.
+- **Serviço e Deploy de Modelos:** **FastAPI**, **BentoML**, Seldon Core, KFServing, TorchServe, TensorFlow Serving.
+- **Monitoramento Contínuo** de modelos e dados.
 
-#### 23. Gerenciamento do Ciclo de Vida de ML (MLOps)
-- Controle de Versão (**Git**, **DVC**).
-- Experimentação e Rastreamento (**MLflow**, **Weights & Biases**).
-- Conteinerização (**Docker**).
-- Orquestração de Workflow (**Apache Airflow**, Kubeflow).
-- Serviço de Modelos (**FastAPI**, **BentoML**, Seldon, KFServing).
-- Monitoramento.
+#### 23. Computação em Larga Escala e Cloud
+- **Computação Distribuída:** **Apache Spark**, **Dask**, **Ray**.
+- **Plataformas de IA na Nuvem:** AWS SageMaker, Azure ML, Google Vertex AI (visão geral).
+- **Considerações sobre Hardware para IA:** GPUs, TPUs (conceitual).
 
-#### 24. Computação Distribuída e em Nuvem
-- **Apache Spark**, **Dask**, **Ray**.
-- Plataformas de Cloud AI (AWS SageMaker, Azure ML, Google Vertex AI).
-
-#### 25. Boas Práticas e Ética em IA
-- Qualidade de Código, Reprodutibilidade.
-- Considerações Éticas (Viés, Justiça, Explicabilidade, Privacidade).
-- Segurança em IA.
+#### 24. Ética, Segurança e Privacidade em IA
+- **Viés e Justiça (Fairness):** Identificação e mitigação.
+- **Explicabilidade e Transparência** (Revisitar XAI no contexto da produção).
+- **Privacidade em IA:** Privacidade Diferencial, Federated Learning (**PySyft**).
+- **Segurança em IA:** Ataques Adversariais, defesa (**ART** - Adversarial Robustness Toolbox), proteção de modelos e dados.
+- **Governança de IA e Reprodutibilidade.**
 
 ---
 
 ## Guia para Colaboradores
 
 - **Estilo de Documentação:** Utilize Markdown. Clareza, concisão, exemplos práticos.
-- **Exemplos Práticos:** Snippets de código Python (e JS/HTML/CSS para frontend) funcionais.
+- **Exemplos Práticos:** Snippets de código Python (e JS/HTML/CSS para frontend) funcionais e autocontidos.
 - **Estrutura por Tópico/Função:**
     - Nome da Função/Conceito/Biblioteca.
     - Breve Descrição.
