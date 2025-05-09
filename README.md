@@ -104,17 +104,5 @@ Aqui estão as badges das principais tecnologias utilizadas no projeto:
 - Documente parâmetros, retornos e casos de uso.
 - Referencie a documentação oficial das bibliotecas.
 
-## Recursos de Referência
-- [Documentação Oficial do Python](https://docs.python.org/)
-- [NumPy](https://numpy.org/doc/)
-- [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
-- [Scikit-learn](https://scikit-learn.org/stable/documentation.html)
-- [TensorFlow](https://www.tensorflow.org/api_docs/python)
-- [PyTorch](https://pytorch.org/docs/stable/index.html)
-- [NLTK](https://www.nltk.org/)
-- [spaCy](https://spacy.io/usage)
-- [OpenCV](https://docs.opencv.org/)
-- [Hugging Face Transformers](https://huggingface.co/docs/transformers/)
-
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
