@@ -13,6 +13,7 @@ Este projeto visa construir um repositório abrangente para documentar funções
 <p align="center">
   Se você achou este repositório útil, considere apoiar o nosso trabalho com uma pequena doação. Sua contribuição nos ajuda a dedicar mais tempo e recursos à melhoria contínua e à adição de novas ferramentas e tutoriais.
 </p>
+
 ---
 
 ## Tecnologias
