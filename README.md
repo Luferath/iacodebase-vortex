@@ -2,6 +2,51 @@
 
 Este projeto visa construir um repositório abrangente para documentar funções, bibliotecas e aplicações práticas de Inteligência Artificial (IA) utilizando Python. A estrutura baseará-se no estilo manual do Python, oferecendo exemplos práticos e explicações detalhadas.
 
+## Linguagens e Frameworks
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
+## Bibliotecas Numéricas e Análise de Dados
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+## Visualização de Dados
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-2E6B91?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+## Machine Learning
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge)
+![CatBoost](https://img.shields.io/badge/CatBoost-FAB040?style=for-the-badge)
+
+## Deep Learning
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+## Processamento de Linguagem Natural
+
+![NLTK](https://img.shields.io/badge/NLTK-008080?style=for-the-badge)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge)
+![Gensim](https://img.shields.io/badge/Gensim-3498DB?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFBF00?style=for-the-badge&logo=huggingface&logoColor=black)
+
+## Visão Computacional
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-006400?style=for-the-badge)
+
+## Outros
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 ## Estrutura do Repositório
 
 ### 1. Fundamentos de Python para IA
