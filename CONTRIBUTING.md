@@ -1,6 +1,6 @@
-# Guia de Contribuição para o Repositório de IA
+# Guia de Contribuição para o IA Codebase Vortex
 
-Primeiramente, obrigado pelo seu interesse em contribuir para o Repositório de IA! 🎉 A sua ajuda é fundamental para tornar este um recurso cada vez mais completo e valioso para a comunidade.
+Primeiramente, obrigado pelo seu interesse em contribuir para o IA Codebase Vortex! 🎉 A sua ajuda é fundamental para tornar este um recurso cada vez mais completo e valioso para a comunidade.
 
 Este documento fornece um conjunto de diretrizes para contribuir com este projeto. Por favor, reserve um momento para revisá-lo antes de iniciar sua contribuição.
 
@@ -21,7 +21,7 @@ Este documento fornece um conjunto de diretrizes para contribuir com este projet
 
 ## Código de Conduta
 
-Este projeto e todos os participantes dele são regidos pelo [Código de Conduta](CODE_OF_CONDUCT.md). Ao participar, espera-se que você siga este código. Por favor, reporte comportamentos inaceitáveis para contato@vortexhub.tec.br. 
+Este projeto e todos os participantes dele são regidos pelo [Código de Conduta](CODE_OF_CONDUCT.md). Ao participar, espera-se que você siga este código. Por favor, reporte comportamentos inaceitáveis para [Luferath via Issues no GitHub ou contato@vortexhub.tec.br].
 
 ## Como Posso Contribuir?
 
@@ -29,7 +29,7 @@ Existem várias maneiras de contribuir, desde reportar um erro de digitação at
 
 ### Reportando Bugs
 
-Se você encontrar um bug no conteúdo (ex: informação incorreta, link quebrado, exemplo de código que não funciona, erro de digitação), por favor, abra uma "Issue" no GitHub.
+Se você encontrar um bug no conteúdo (ex: informação incorreta, link quebrado, exemplo de código que não funciona, erro de digitação), por favor, abra uma "Issue" no GitHub do projeto `iacodebase-vortex`.
 Ao reportar um bug, por favor, inclua:
 
 - Uma descrição clara e concisa do que é o bug.
@@ -42,7 +42,7 @@ Ao reportar um bug, por favor, inclua:
 
 Se você tem ideias para melhorar o conteúdo existente ou sugestões para novas seções, ferramentas ou tópicos que deveriam ser cobertos:
 
-- Verifique se já não existe uma "Issue" aberta sobre o mesmo assunto.
+- Verifique se já não existe uma "Issue" aberta sobre o mesmo assunto no [Issues do iacodebase-vortex](https://github.com/Luferath/iacodebase-vortex/issues).
 - Se não houver, abra uma nova "Issue" descrevendo sua sugestão.
 - Explique por que essa melhoria/adição seria útil para o repositório.
 - Seja o mais específico possível.
@@ -52,15 +52,15 @@ Se você tem ideias para melhorar o conteúdo existente ou sugestões para novas
 Agradecemos contribuições diretas ao conteúdo e aos exemplos de código!
 
 1.  **Encontre algo para trabalhar:**
-    *   Você pode começar por "Issues" abertas, especialmente aquelas marcadas como `good first issue` ou `help wanted`.
+    *   Você pode começar por "Issues" abertas no [Issues do iacodebase-vortex](https://github.com/Luferath/iacodebase-vortex/issues), especialmente aquelas marcadas como `good first issue` ou `help wanted`.
     *   Você pode propor suas próprias adições de conteúdo, conforme descrito na seção anterior.
 
-2.  **Fork o repositório:** Clique no botão "Fork" no canto superior direito da página do repositório no GitHub. Isso criará uma cópia do projeto na sua conta.
+2.  **Fork o repositório:** Clique no botão "Fork" no canto superior direito da página do [iacodebase-vortex no GitHub](https://github.com/Luferath/iacodebase-vortex). Isso criará uma cópia do projeto na sua conta.
 
 3.  **Clone seu fork localmente:**
     ```bash
-    git clone https://github.com/SEU_USUARIO/repositorio-ia.git
-    cd repositorio-ia
+    git clone https://github.com/SEU_USUARIO/iacodebase-vortex.git
+    cd iacodebase-vortex
     ```
     *(Substitua `SEU_USUARIO` pelo seu nome de usuário do GitHub)*
 
@@ -68,7 +68,7 @@ Agradecemos contribuições diretas ao conteúdo e aos exemplos de código!
     ```bash
     git checkout -b nome-da-sua-feature-ou-correcao
     ```
-    (ex: `git checkout -b adiciona-conteudo-sobre-fastapi` ou `git checkout -b corrige-typo-no-readme`)
+    (ex: `git checkout -b adiciona-doc-fastapi` ou `git checkout -b corrige-typo-readme`)
 
 5.  **Faça suas alterações:**
     *   Adicione ou edite arquivos Markdown.
@@ -85,10 +85,10 @@ Agradecemos contribuições diretas ao conteúdo e aos exemplos de código!
     ```
 
 8.  **Abra um Pull Request (PR):**
-    *   Vá para a página do repositório original no GitHub.
+    *   Vá para a página do repositório original [Luferath/iacodebase-vortex](https://github.com/Luferath/iacodebase-vortex).
     *   Você verá uma mensagem sugerindo a criação de um Pull Request a partir da sua branch recém-enviada. Clique nela.
     *   Alternativamente, vá para a aba "Pull requests" e clique em "New pull request".
-    *   Certifique-se de que a branch base é a `main` (ou `master`) do repositório original e a branch de comparação é a sua.
+    *   Certifique-se de que a branch base é a `main` do repositório `Luferath/iacodebase-vortex` e a branch de comparação é a sua.
     *   Dê um título claro e uma descrição detalhada para seu PR. Explique o *quê* e o *porquê* das suas alterações. Se estiver relacionado a uma "Issue", mencione o número da Issue (ex: "Closes #123").
 
 ## Guia de Estilo
@@ -123,9 +123,6 @@ Agradecemos contribuições diretas ao conteúdo e aos exemplos de código!
     - `feat: Adiciona documentação para a biblioteca Seaborn`
     - `fix: Corrige link quebrado na seção de NumPy`
     - `docs: Melhora a clareza na introdução sobre Deep Learning`
-    - `style: Formata exemplos de código Python com Black`
-    - `refactor: Reorganiza seções no README para melhor fluxo`
-    - `test: Adiciona testes para exemplos de Scikit-learn` (Se aplicável no futuro)
 - Opcionalmente, se for uma mudança pequena, um commit simples como "Corrige erro de digitação em X" é aceitável.
 
 ## Configurando seu Ambiente de Desenvolvimento
@@ -139,49 +136,49 @@ Recomendamos o uso de ambientes virtuais para gerenciar as dependências do proj
 
     Usando `venv` (padrão do Python):
     ```bash
-    python -m venv .venv
+    python3 -m venv .venv  # Ou apenas python -m venv .venv
     source .venv/bin/activate  # No Linux/macOS
     # .venv\Scripts\activate  # No Windows
     ```
 
     Usando `conda`:
     ```bash
-    # Se você tiver um arquivo environment.yml:
+    # Se você criar um arquivo environment.yml no futuro:
     # conda env create -f environment.yml
-    # conda activate ia-repositorio
+    # conda activate iacodebase-vortex
     # Ou crie um novo:
-    conda create -n ia-repositorio python=3.9
-    conda activate ia-repositorio
+    conda create -n iacodebase-vortex python=3.9 # Ajuste a versão conforme necessidade
+    conda activate iacodebase-vortex
     ```
 3.  **Instale as dependências:**
     ```bash
-    # Se houver um requirements.txt
-    pip install -r requirements.txt
+    # Se você criar um requirements.txt no futuro:
+    # pip install -r requirements.txt
     # Ou instale as bibliotecas específicas que você precisa para seus exemplos
     # pip install numpy pandas matplotlib ...
     ```
 4.  **(Opcional) Instale ferramentas de desenvolvimento:**
     ```bash
-    pip install black flake8 pytest # Exemplo
+    pip install black flake8 pytest markdownlint-cli # Exemplo
     ```
 
 ## Submetendo um Pull Request (PR)
 
-1.  Após enviar suas alterações para seu fork, vá até a página do repositório original no GitHub.
+1.  Após enviar suas alterações para seu fork, vá até a página do repositório original [Luferath/iacodebase-vortex](https://github.com/Luferath/iacodebase-vortex).
 2.  Clique em "New pull request".
-3.  Selecione a branch do seu fork que contém suas alterações (`nome-da-sua-feature-ou-correcao`) e a branch `main` (ou `master`) do repositório original como base.
+3.  Selecione a branch do seu fork que contém suas alterações (`nome-da-sua-feature-ou-correcao`) e a branch `main` do repositório `Luferath/iacodebase-vortex` como base.
 4.  Preencha o título e a descrição do PR:
     - **Título:** Conciso e descritivo (ex: "Adiciona documentação para Plotly" ou "Corrige exemplos em NumPy").
     - **Descrição:** Detalhe as alterações feitas. Explique o *porquê* das mudanças. Se o PR resolve uma "Issue" existente, referencie-a usando `Closes #NUMERO_DA_ISSUE`.
 5.  Se o seu PR ainda for um trabalho em progresso, você pode marcá-lo como "Draft" (Rascunho).
-6.  Um dos mantenedores revisará seu PR. Podemos pedir alterações ou discutir alguns pontos. Seja receptivo ao feedback!
+6.  Aguarde a revisão do seu PR. Esteja receptivo ao feedback!
 7.  Assim que seu PR for aprovado, ele será mesclado ao repositório principal. Parabéns e obrigado!
 
 ## Questões ou Dúvidas?
 
 Se você tiver dúvidas sobre como contribuir, ou sobre algum aspecto do projeto, sinta-se à vontade para:
 
-- Abrir uma "Issue" no GitHub com sua pergunta.
-- [Mencione outros canais de comunicação se houver, como um Discord, Fórum, etc.]
+- Abrir uma "Issue" no GitHub do [iacodebase-vortex](https://github.com/Luferath/iacodebase-vortex/issues) com sua pergunta.
+- [Adicione outros canais de comunicação se desejar, ex: e-mail direto se preferir para certas questões]
 
 Agradecemos novamente por sua contribuição!
