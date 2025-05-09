@@ -21,7 +21,7 @@ Este documento fornece um conjunto de diretrizes para contribuir com este projet
 
 ## Código de Conduta
 
-Este projeto e todos os participantes dele são regidos pelo [Código de Conduta](CODE_OF_CONDUCT.md). Ao participar, espera-se que você siga este código. Por favor, reporte comportamentos inaceitáveis para [SEU_EMAIL_OU_CONTATO_PARA_DENUNCIAS]. *(Substitua o placeholder)*
+Este projeto e todos os participantes dele são regidos pelo [Código de Conduta](CODE_OF_CONDUCT.md). Ao participar, espera-se que você siga este código. Por favor, reporte comportamentos inaceitáveis para [contato@vortexhub.tec.br]. *(Substitua o placeholder)*
 
 ## Como Posso Contribuir?
 
