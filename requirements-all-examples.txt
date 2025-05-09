@@ -1,0 +1,162 @@
+# IA Codebase Vortex - Lista Abrangente de Dependências Python para Exemplos
+# ---------------------------------------------------------------------------
+# AVISO: Este arquivo lista uma ampla gama de bibliotecas Python cobertas
+# no repositório IA Codebase Vortex. Instalar TODAS estas dependências
+# em um único ambiente pode resultar em um ambiente muito grande e potencialmente
+# levar a conflitos de dependência.
+#
+# Para projetos práticos ou ao seguir exemplos específicos, é ALTAMENTE
+# RECOMENDADO criar um ambiente virtual dedicado e instalar apenas as
+# bibliotecas necessárias para aquele contexto específico.
+#
+# Use este arquivo como uma referência ou se você realmente deseja explorar
+# todas as tecnologias em um único ambiente (proceda com cautela).
+#
+# Instale usando: pip install -r requirements-all-examples.txt
+# ---------------------------------------------------------------------------
+
+# -- Bibliotecas Numéricas e Análise de Dados --
+numpy
+pandas
+scipy
+dask[complete] # Inclui dataframes, arrays, visualização, etc.
+
+# -- Visualização de Dados (Python) --
+matplotlib
+seaborn
+plotly
+bokeh
+altair
+streamlit
+dash
+
+# -- Bancos de Dados e Armazenamento (Clientes/Drivers Python) --
+# Tradicionais e Data Warehouses
+psycopg2-binary     # Para PostgreSQL e Amazon Redshift
+mysql-connector-python # Para MySQL
+# SQLite é built-in
+pymongo             # Para MongoDB
+redis               # Para Redis
+elasticsearch       # Para Elasticsearch
+cassandra-driver    # Para Apache Cassandra
+snowflake-connector-python
+google-cloud-bigquery
+pyodbc              # Para Microsoft SQL Server (uma opção comum)
+cx_Oracle           # Para Oracle Database
+clickhouse-driver
+influxdb-client     # Para InfluxDB v2+
+neo4j               # Para Neo4j
+
+# Bancos de Dados Vetoriais
+pinecone-client
+weaviate-client
+pymilvus
+chromadb
+qdrant-client
+faiss-cpu           # Para FAISS (versão CPU); use faiss-gpu para suporte a GPU
+
+# -- Orquestração, Qualidade e Streaming de Dados (Bibliotecas/Clientes Python) --
+apache-airflow      # Instalação completa pode ser pesada; considere [celery,postgres] etc. como extras.
+# Apache NiFi: Interação geralmente via API REST; não há uma lib "nifi" principal via pip.
+luigi
+prefect
+dagster
+# Talend: Plataforma, interação pode ser via SDKs específicos ou APIs.
+dbt-core            # Mais adaptadores como dbt-postgres, dbt-snowflake são instalados separadamente.
+great-expectations
+ydata-profiling[complete]
+# Deequ: Principalmente Scala/Spark; interação via PySpark se usado com Spark.
+soda-core           # Soda SQL evoluiu para Soda Core
+kafka-python        # Cliente Python para Apache Kafka
+apache-flink        # Para PyFlink
+# Apache Storm: Principalmente Java/Scala; pode haver clients Python para submeter topologias.
+pika                # Para RabbitMQ
+
+# -- Machine Learning --
+scikit-learn
+xgboost
+lightgbm
+catboost
+optuna
+hyperopt
+
+# -- Deep Learning --
+# Para TensorFlow e PyTorch, considere as instruções oficiais para versões específicas (CPU/GPU).
+tensorflow          # Ou tensorflow-cpu para garantir CPU; tensorflow-gpu (versões mais antigas)
+keras               # Keras é parte do TensorFlow >= 2.0
+torch               # Instala versão CPU por padrão via pip
+torchvision         # Acompanha PyTorch
+torchaudio          # Acompanha PyTorch
+jax
+jaxlib              # Dependência para JAX
+
+# -- Processamento de Linguagem Natural (PLN) --
+nltk
+spacy               # Lembre-se de baixar modelos: python -m spacy download en_core_web_sm
+gensim
+transformers
+sentence-transformers
+textblob
+
+# -- Visão Computacional (VC) --
+opencv-python       # Ou opencv-python-headless para servidores
+Pillow
+scikit-image
+
+# -- Interfaces de Usuário e Backend para IA (Python Frameworks para APIs) --
+# Streamlit e Dash já listados em Visualização
+fastapi
+uvicorn[standard]   # Servidor ASGI para FastAPI e outros
+
+# -- MLOps e Gerenciamento de Features --
+mlflow
+dvc[all]            # Instala com suporte a todos os remotos (s3, gcs, azure, ssh, etc.)
+bentoml
+# Feast e Tecton podem ter clientes Python, já que são feature stores.
+feast
+# Tecton: Cliente geralmente parte da sua plataforma. Verificar PyPI para "tecton-sdk" se disponível.
+# Hopsworks:
+hopsworks           # Cliente Python para Hopsworks Feature Store
+
+# -- Computação Distribuída e Cloud (SDKs Python) --
+pyspark             # Para Apache Spark
+ray[default]        # Ou ray[all] para mais funcionalidades
+
+# SDKs de Cloud
+boto3               # AWS SDK para Python (SageMaker, Lambda, EC2, Kinesis, Redshift, etc.)
+azure-identity      # Base para autenticação nos SDKs do Azure
+azure-mgmt-resource # Exemplo de SDK de gerenciamento do Azure
+azure-ai-ml         # SDK para Azure Machine Learning
+azure-functions     # Para trabalhar com Azure Functions (pode variar conforme uso)
+azure-storage-blob  # Exemplo para interagir com Azure Storage
+google-api-python-client
+google-cloud-aiplatform # SDK para Vertex AI
+google-cloud-functions
+google-cloud-compute
+google-cloud-pubsub # Cliente Python para Google Cloud Pub/Sub
+kubernetes          # Cliente Python para interagir com a API do Kubernetes
+# Terraform é uma ferramenta CLI, não uma lib Python.
+
+# -- Segurança, Privacidade, Ética e Simulação em IA --
+pysyft
+tensorflow-privacy
+opacus              # Para PyTorch
+adversarial-robustness-toolbox # ART
+# cleverhans  # Verificar o status do pacote PyPI
+aif360
+fairlearn
+# Unity ML-Agents: Principalmente um pacote Unity, mas pode ter interface Python.
+# ml-agents # Pacote PyPI para Unity ML-Agents
+# CARLA Simulator: Requer instalação do simulador; Python API é usada para interagir.
+# NVIDIA Isaac Sim: Similar ao CARLA.
+# gym             # OpenAI Gym original (agora legado)
+gymnasium         # Sucessor do Gym, recomendado
+stable-baselines3[extra] # Inclui extras como atari, etc.
+
+# -- Utilitários Comuns (Geralmente úteis em projetos de IA) --
+requests            # Para fazer requisições HTTP
+python-dotenv       # Para carregar variáveis de ambiente de arquivos .env
+ tqdm               # Para barras de progresso
+jupyterlab          # Inclui jupyter notebook, ipykernel
+notebook
+ipywidgets          # Para interatividade em notebooks Jupyter
