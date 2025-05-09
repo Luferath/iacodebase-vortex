@@ -3,7 +3,7 @@
 Este projeto visa construir um repositório abrangente para documentar funções, bibliotecas, frameworks, ferramentas, infraestrutura de dados e aplicações práticas de Inteligência Artificial (IA) utilizando Python, bem como as tecnologias frontend e as considerações de produção. A estrutura baseia-se no estilo manual, oferecendo explicações detalhadas, exemplos práticos, discussões sobre casos de uso e links para recursos oficiais.
 
 <p align="center">
-  <a href="=(https://nubank.com.br/cobrar/d7h1/681e380c-417d-4c19-9353-ba2fdf1174cf)" target="_blank">
+  <a href="=[https://nubank.com.br/cobrar/d7h1/681e380c-417d-4c19-9353-ba2fdf1174cf]" target="_blank">
     <img src="https://img.shields.io/badge/Apoie_o_Projeto-green?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Apoie o Projeto via Doação">
   </a>
 </p>
