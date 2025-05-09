@@ -2,6 +2,40 @@
 
 Este projeto visa construir um repositório abrangente para documentar funções, bibliotecas, frameworks, ferramentas, infraestrutura de dados e aplicações práticas de Inteligência Artificial (IA) utilizando Python, bem como as tecnologias frontend e as considerações de produção. A estrutura baseia-se no estilo manual, oferecendo explicações detalhadas, exemplos práticos, discussões sobre casos de uso e links para recursos oficiais.
 
+<div id="donation-area" style="
+    margin-top: 30px; /* Espaço acima da área */
+    padding: 20px; /* Espaço interno */
+    border: 1px solid #d3d3d3; /* Borda simples */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    text-align: center; /* Centralizar conteúdo */
+    font-family: sans-serif; /* Fonte legível */
+">
+    <h3>Apoie o Desenvolvimento Deste Projeto</h3>
+    <p style="margin-bottom: 15px; color: #555;">
+        Se você achou as ferramentas e recursos deste repositório úteis e gostaria de ajudar a mantê-lo e melhorá-lo, considere fazer uma doação. Toda contribuição é muito apreciada!
+    </p>
+
+    <a href="LINK_PARA_SUA_PLATAFORMA_DE_DOACAO" target="_blank" style="
+        display: inline-block; /* Torna o link um bloco para aplicar padding */
+        background-color: #28a745; /* Cor de fundo verde (cor comum para "sucesso" ou "doar") */
+        color: white; /* Cor do texto */
+        padding: 12px 25px; /* Espaçamento interno */
+        text-align: center; /* Centraliza o texto */
+        text-decoration: none; /* Remove sublinhado do link */
+        border-radius: 5px; /* Cantos levemente arredondados no botão */
+        font-size: 18px; /* Tamanho da fonte */
+        font-weight: bold; /* Texto em negrito */
+        transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse */
+    ">
+        💖 Doar Agora 💖
+    </a>
+
+    <p style="margin-top: 15px; font-size: 0.9em; color: #777;">
+        Sua generosidade impulsiona a inovação em IA de código aberto.
+    </p>
+</div>
+
 ---
 
 ## Badges das Tecnologias
