@@ -189,7 +189,6 @@ Principais tecnologias abordadas no projeto:
 [![PySyft (OpenMined)](https://img.shields.io/badge/PySyft-E91E63?style=for-the-badge&logo=openmined&logoColor=white)](https://github.com/OpenMined/PySyft)
 [![TensorFlow Privacy](https://img.shields.io/badge/TensorFlow%20Privacy-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/privacy)
 [![Opacus (PyTorch)](https://img.shields.io/badge/Opacus-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://opacus.ai/)
-[![ART (Adversarial Robustness Toolbox)](https://img.shields.io/badge/ART-000000?style=for-the-badge&logo=linuxfoundation&logoColor=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 [![CleverHans](https://img.shields.io/badge/CleverHans-4285F4?style=for-the-badge)](https://github.com/cleverhans-lab/cleverhans)
 [![IBM AI Fairness 360](https://img.shields.io/badge/AI%20Fairness%20360-0062FF?style=for-the-badge&logo=ibm&logoColor=white)](https://aif360.mybluemix.net/)
 [![Fairlearn](https://img.shields.io/badge/Fairlearn-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://fairlearn.org/)
